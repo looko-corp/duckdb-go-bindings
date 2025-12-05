@@ -1,6 +1,8 @@
 module github.com/duckdb/duckdb-go-bindings
 
-go 1.24
+go 1.23.0
+
+toolchain go1.23.6
 
 require (
 	github.com/apache/arrow-go/v18 v18.4.1
